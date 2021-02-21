@@ -1,0 +1,11 @@
+
+public class Stack {
+
+	
+	
+	
+	
+	class Node {
+		Node next;
+	}
+}

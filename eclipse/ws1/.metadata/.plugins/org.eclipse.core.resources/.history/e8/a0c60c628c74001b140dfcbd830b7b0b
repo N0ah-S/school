@@ -1,0 +1,24 @@
+
+public class Stack<T> {
+
+	private Node top;
+	
+	public void push(T element) {
+		
+		top = new Node(top, element);
+
+	}
+	
+	
+	
+	class Node {
+		Node next;
+		T element;
+		
+		public Node(Node next, T element) {
+			this.next = next;
+			this.element = element;
+		}
+		
+	}
+}

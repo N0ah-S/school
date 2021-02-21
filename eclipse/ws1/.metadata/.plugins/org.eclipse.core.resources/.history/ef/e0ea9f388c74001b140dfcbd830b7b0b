@@ -1,0 +1,18 @@
+
+public class Stack<T> {
+
+	private Node top;
+	
+	public void push(T element) {
+		
+		
+
+	}
+	
+	
+	
+	class Node {
+		Node next;
+		T element;
+	}
+}

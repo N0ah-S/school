@@ -1,0 +1,12 @@
+
+public class Stack<T> {
+
+	private Node top;
+	
+	
+	
+	class Node {
+		Node next;
+		T element;
+	}
+}
