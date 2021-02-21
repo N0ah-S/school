@@ -1,0 +1,32 @@
+public class DatenKnoten extends Knoten {
+	
+    Element zObst;
+    Knoten zNächster;
+    
+    public DatenKnoten(Element pE, AbschlussKnoten pNächster){
+        zObst = pE;
+        zNächster = pNächster;
+    }
+    
+    public DatenKnoten untenAnhängen(Element e){
+        zNächster = zNächster.untenAnhängen(e);
+        return this;
+    }
+    public Knoten getNächster(){
+        return zNächster;
+    }
+    public Element getObst(){
+        return zObst;
+    }
+    public int getGesamtgewicht(){
+        return zNächster.getGesamtgewicht()+zObst.getGewicht();
+    }
+    
+    public Knoten getKnoten(int i){
+        if(i>0){
+            return zNächster.getKnoten(i-1);
+        }else{
+            return this;
+        }
+    }
+}

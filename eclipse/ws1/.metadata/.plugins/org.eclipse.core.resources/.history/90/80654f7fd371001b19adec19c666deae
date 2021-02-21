@@ -1,0 +1,10 @@
+
+public class QueueTest {
+ 
+    public static void test() {
+        
+    	Queue<Frucht> qf = new Queue<>();
+    	
+    }
+    
+}

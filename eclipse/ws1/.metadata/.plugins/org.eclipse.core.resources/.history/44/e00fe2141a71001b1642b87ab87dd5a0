@@ -1,0 +1,10 @@
+
+public class Queque {
+
+	
+	
+	class Node {
+		public Object next;
+		public Object element;
+	}
+}

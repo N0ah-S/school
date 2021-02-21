@@ -1,0 +1,18 @@
+
+public class User1 {
+
+	public static void test() {
+		Queue q1 = new Queue();
+		
+		q1.add(1);
+		q1.add(2);
+		q1.add(3);
+		
+		System.out.println("Erstes Element: " + q1.first());
+		
+		q1.remove();
+		
+		System.out.println("Erstes Element: " + q1.first());
+	}
+	
+}

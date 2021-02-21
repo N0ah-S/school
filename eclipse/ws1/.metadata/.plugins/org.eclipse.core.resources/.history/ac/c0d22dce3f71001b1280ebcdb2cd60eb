@@ -1,0 +1,50 @@
+
+public class Queque {
+
+	private Node leadNode;
+	public int length;
+	
+	public void add(Object element) {
+		if(leadNode == null) {
+			leadNode = new Node(element, null);
+		} else {
+			getNode(length - 1).next = new Node(element, null);
+		}
+		length++;
+	}
+	
+	private Node getNode(int i) {
+		if(i < length) {
+			return leadNode.getNode(i);
+		}
+		return null;
+	}
+	
+	public Object get(int i) {
+		if(i < length) {
+			return leadNode.getNode(i).element;
+		}
+		
+		return null;
+	}
+	
+	public void remove() {
+		leadNode = leadNode.next;
+		length--;
+	}
+	
+	
+	class Node {
+		public Object element;
+		public Node next;
+		
+		public Node(Object element, Node next) {
+			this.element = element;
+			this.next = next;
+		}
+
+		public Node getNode(int i){
+	        return i > 0 ? next.getNode(i-1) : this;
+	    }
+	}
+}

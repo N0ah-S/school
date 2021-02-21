@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=DatenKnoten
+comment1.params=pE\ pNaechster
+comment1.target=DatenKnoten(Element,\ AbschlussKnoten)
+comment2.params=e
+comment2.target=DatenKnoten\ untenAnhaengen(Element)
+comment3.params=
+comment3.target=Knoten\ getNaechster()
+comment4.params=
+comment4.target=Element\ getElement()
+comment5.params=
+comment5.target=int\ getGesamtgewicht()
+comment6.params=i
+comment6.target=Knoten\ getKnoten(int)
+numComments=7

@@ -1,0 +1,8 @@
+
+public class Pair<T, R> {
+
+	public Pair(T a, R b) {
+		
+	}
+	
+}

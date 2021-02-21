@@ -1,0 +1,15 @@
+public class Abschlussknoten extends Knoten{
+    public Datenknoten untenAnhängen(Element pE){
+        return new Datenknoten(pE, this);
+    }
+    public Knoten getNächster(){
+        return null;
+    }
+    public Element getObst(){
+        return null;
+    }
+    public int getGesamtgewicht(){return 0;}
+    public Knoten getKnoten(int i){
+        return null;
+    }
+}

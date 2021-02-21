@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Liste
+comment1.params=
+comment1.target=Liste()
+comment2.params=
+comment2.target=Knoten\ getErster()
+comment3.params=
+comment3.target=int\ getAnzahlKnoten()
+comment4.params=pE
+comment4.target=void\ untenAnhaengen(Element)
+comment5.params=liste
+comment5.target=void\ liste\u00DCbernehmen(Liste)
+comment6.params=
+comment6.target=int\ getGesamtgewicht()
+comment7.params=
+comment7.target=void\ obenEntnehmen()
+comment8.params=i
+comment8.target=Knoten\ getKnoten(int)
+comment9.params=
+comment9.target=void\ listeAusgeben()
+numComments=10

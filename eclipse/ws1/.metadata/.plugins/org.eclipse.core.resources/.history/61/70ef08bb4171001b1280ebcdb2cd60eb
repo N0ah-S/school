@@ -1,0 +1,26 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class QuequeTest {
+
+	@Test
+	void test() {
+		Queque list = new Queque();
+		
+		list.add("A");
+		list.add("B");
+		list.add("C");
+		
+		if(list.length != 3 || list.getLength() != 3 ) {
+			fail("Wrong length");
+		}
+		
+		assertEquals("A", list.get(0));
+		assertEquals("B", list.get(1));
+		assertEquals("C", list.get(2));
+		
+		
+	}
+
+}

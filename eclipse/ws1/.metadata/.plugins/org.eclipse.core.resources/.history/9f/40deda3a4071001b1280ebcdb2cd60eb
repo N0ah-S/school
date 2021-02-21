@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class QuequeTest {
+
+	@Test
+	void test() {
+		Queque list = new Queque();
+		
+		list.add("A");
+		list.add("B");
+		list.add("C");
+	}
+
+}

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Element
+comment1.params=pObst\ pGewicht
+comment1.target=Element(java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getGewicht()
+comment3.params=
+comment3.target=java.lang.String\ getObst()
+numComments=4

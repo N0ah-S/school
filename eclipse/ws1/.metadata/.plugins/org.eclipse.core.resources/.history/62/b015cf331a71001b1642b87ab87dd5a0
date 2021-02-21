@@ -1,0 +1,12 @@
+
+public class Queque {
+
+	private Node leadNode;
+	
+	
+	
+	class Node {
+		public Object next;
+		public Object element;
+	}
+}

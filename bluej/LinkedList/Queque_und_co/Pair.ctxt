@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Pair
+comment0.text=\r\n\ \r\n\ @author\ Noah\ S\r\n\r\n\ Einfaches\ Beispiel\ f\u00FCr\ generische\ Klassen\r\n\r\n\ @param\ <T>\ Typ\ f\u00FCr\ erstes\ Argument\r\n\ @param\ <R>\ Typ\ f\u00FCr\ zweites\ Argument\r\n
+comment1.params=a\ b
+comment1.target=Pair(java.lang.Object,\ java.lang.Object)
+comment2.params=a
+comment2.target=void\ setA(java.lang.Object)
+comment3.params=b
+comment3.target=void\ setB(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.Object\ getA()
+comment5.params=
+comment5.target=java.lang.Object\ getB()
+numComments=6

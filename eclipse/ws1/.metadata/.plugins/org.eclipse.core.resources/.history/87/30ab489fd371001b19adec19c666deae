@@ -1,0 +1,12 @@
+
+public class QueueTest {
+ 
+    public static void test() {
+        
+    	Queue<Frucht> qf = new Queue<>();
+    	Queue<Gummibärchen> qg = new Queue<>();
+    	Queue<Schokolade> qs = new Queue<>();
+    	
+    }
+    
+}

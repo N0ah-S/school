@@ -1,0 +1,62 @@
+
+public class Queue<T> {
+
+    private Node leadNode;
+    public int length;
+    
+    public void add(T element) {
+        if(leadNode == null) {
+            leadNode = new Node(element, null);
+        } else {
+            getNode(length - 1).next = new Node(element, null);
+        }
+        length++;
+    }
+    
+    private Node getNode(int i) {
+        if(i < length) {
+            return leadNode.getNode(i);
+        }
+        return null;
+    }
+    
+    public T get(int i) {
+        if(i < length) {
+            return leadNode.getNode(i).element;
+        }
+        
+        return null;
+    }
+    
+    public boolean isEmpty() {
+        return length == 0;
+    }
+    
+    public int getLength() {
+        return length;
+    }
+    
+    public Node first() {
+        return leadNode;
+    }
+    
+    public void remove() {
+        leadNode = leadNode.next;
+        length--;
+    }
+    
+    
+    class Node {
+        public T element;
+        public Node next;
+        
+        public Node(T element, Node next) {
+            this.element = element;
+            this.next = next;
+        }
+
+        public Node getNode(int i){
+                return i > 0 ? next.getNode(i-1) : this;
+        }
+    }
+}

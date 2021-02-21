@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Frucht
+comment1.params=farbe
+comment1.target=Frucht(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getFarbe()
+comment3.params=farbe
+comment3.target=void\ setFarbe(java.lang.String)
+numComments=4

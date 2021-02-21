@@ -1,0 +1,10 @@
+
+public class User1 {
+
+	public static void test() {
+		Queue q1 = new Queue();
+		
+		q1.add(1);
+	}
+	
+}

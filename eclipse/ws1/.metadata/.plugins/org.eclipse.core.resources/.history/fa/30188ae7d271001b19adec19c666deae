@@ -1,0 +1,7 @@
+
+public class Gummibärchen {
+
+	String farbe;
+	int anzahl;
+	
+}

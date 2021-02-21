@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Gummib\u00E4rchen
+comment1.params=farbe\ anzahl
+comment1.target=Gummib\u00E4rchen(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getFarbe()
+comment3.params=farbe
+comment3.target=void\ setFarbe(java.lang.String)
+comment4.params=
+comment4.target=int\ getAnzahl()
+comment5.params=anzahl
+comment5.target=void\ setAnzahl(int)
+numComments=6
