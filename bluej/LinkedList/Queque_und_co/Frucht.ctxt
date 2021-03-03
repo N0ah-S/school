@@ -6,4 +6,6 @@ comment2.params=
 comment2.target=java.lang.String\ getFarbe()
 comment3.params=farbe
 comment3.target=void\ setFarbe(java.lang.String)
-numComments=4
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

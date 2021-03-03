@@ -9,4 +9,8 @@
     <fullyQualifiedTypeName name="Gummibärchen"/>
     <fullyQualifiedTypeName name="Schokolade"/>
     <fullyQualifiedTypeName name="Frucht"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.PUSH"/>
+    <fullyQualifiedTypeName name="Stack.Node"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Stack"/>
 </qualifiedTypeNameHistroy>

@@ -15,4 +15,9 @@ public class Frucht {
 		this.farbe = farbe;
 	}
 	
+	///Ja, äh... ne is eine Methode von Object die ich überschreibe
+	public String toString() {
+		return "Frucht:" + farbe;
+	}
+	
 }

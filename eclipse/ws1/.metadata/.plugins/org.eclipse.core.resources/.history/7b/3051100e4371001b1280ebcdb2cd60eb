@@ -1,6 +1,0 @@
-
-public class Pair<T, R> {
-
-	private T a;
-	private R b;
-}

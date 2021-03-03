@@ -15,6 +15,9 @@ public class Frucht {
 		this.farbe = farbe;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Frucht:" + farbe;
+	}
 	
 }

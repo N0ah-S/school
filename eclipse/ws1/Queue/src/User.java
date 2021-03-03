@@ -15,6 +15,10 @@ public class User {
 		System.out.println("Erstes Element: " + q1.first());
 		
 		System.out.println("Ist die Liste leer: " + q1.isEmpty());
+		
+		Stack<Ziffer> stack = new Stack<Ziffer>();
+        
+        stack.push(Ziffer.Neun);
 	}
 	
 }
